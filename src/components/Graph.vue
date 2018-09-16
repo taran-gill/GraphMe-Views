@@ -3,14 +3,6 @@
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
         <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5">
-        <blockquote>
-          &#8220;First, solve the problem. Then, write the code.&#8221;
-          <footer>
-            <small>
-              <em>&mdash;John Johnson</em>
-            </small>
-          </footer>
-        </blockquote>
       </v-layout>
     </v-slide-y-transition>
   </v-container>
@@ -18,7 +10,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Graph',
   props: {
     msg: String
   }
@@ -27,7 +19,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* h3 {
+h3 {
   margin: 40px 0 0;
 }
 ul {
@@ -40,5 +32,5 @@ li {
 }
 a {
   color: #42b983;
-} */
+}
 </style>
